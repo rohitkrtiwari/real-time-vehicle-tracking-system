@@ -17,7 +17,7 @@ if(isset($_POST['submit']))
 {
     $username=$_POST['username'];
     $password=$_POST['pass'];
-	if($username == "rohitkrtiwari2002@gmail.com" && $password == 'admin123')
+	if($username == "YOUR_EMAIL@gmail.com" && $password == 'admin123')
 	{
 		$_SESSION['login'] = true;
 		$loggedin = $_SESSION['login'];
