@@ -288,7 +288,7 @@ i{
 
 <script>
 
-    mapboxgl.accessToken = 'pk.eyJ1IjoidmVoaWNhbC10cmFja2luZyIsImEiOiJja21qYWg3d3owcDJuMnB0NDA3bXZrNHQ4In0.CwRmVs9vxK4LfGcR4qa7ag';
+    mapboxgl.accessToken = 'YOUR_TOKEM';
     var map = new mapboxgl.Map({
         container: 'map',
         style: 'mapbox://styles/vehical-tracking/ckn7qx70r11jm17o0t1oo3w53',
@@ -307,7 +307,7 @@ i{
     map.addControl(new mapboxgl.NavigationControl(), 'top-right');
 
 
-    var url = 'https://api.thingspeak.com/channels/1349810/feeds.json?api_key=P8UQCWR86346KP80&results=1';
+    var url = 'https://api.thingspeak.com/channels/1349810/feeds.json?api_key=YOUR_KEY&results=1';
     map.on('load', function () {
         var request = new XMLHttpRequest();
         window.setInterval(function () {
@@ -447,7 +447,7 @@ i{
         $("#history").append(html);
       }
     };
-    xmlhttp.open("GET", "https://api.thingspeak.com/channels/1349810/feeds.json?api_key=P8UQCWR86346KP80", true);
+    xmlhttp.open("GET", "https://api.thingspeak.com/channels/1349810/feeds.json?api_key=YOUR_KEY", true);
     xmlhttp.send();
 
 
