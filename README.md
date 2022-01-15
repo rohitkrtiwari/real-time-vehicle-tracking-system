@@ -14,8 +14,8 @@ It is an open source GPS tracking system. This project contains a C/C++ based Ha
 
 # Gallery
 ## Hardware
-![App Screenshot](device1.jpg)
-![App Screenshot](device3.jpg)
+![App Screenshot](Device1.jpg)
+![App Screenshot](Device3.jpg)
 
 ## App Interface
 ![App Screenshot](tracking.png)
