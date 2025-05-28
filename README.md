@@ -21,7 +21,7 @@ It is an open source GPS tracking system. This project contains a C/C++ based Ha
 ![App Screenshot](tracking.png)
 
 ## Cirduit Doagram
-![Circuit Diagram]("Circuit diagram.png")
+![Circuit Diagram](Circuit.png)
 
 # Features
 ### Some of the features include
